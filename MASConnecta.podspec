@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
 
                    DESC
 
-  s.homepage     = "https://github.com/CAAPIM/iOS-MAS-Connecta"
+  s.homepage     = "https://github.com/lsanches/MASConnecta"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Luis Sanches" => "luis.sanches@ca.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/CAAPIM/iOS-MAS-Connecta.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/lsanches/MASConnecta.git", :tag => "#{s.version}" }
   s.source_files  = "MASConnecta", "MASConnecta/**/*.{h,m,c,mm}"
   s.exclude_files = "Classes/Exclude"
   s.public_header_files = "MASConnecta/MASConnecta.h", "MASConnecta/Classes/MASMessage.h", "MASConnecta/Classes/categories/MASUser+Connecta.h"
